@@ -5,9 +5,7 @@ import axios from "axios";
 import { Pagination, Modal, Card, Skeleton } from "antd";
 import Image from "next/image";
 import { ToastContainer, toast } from "react-toastify";
-import {
-    getSessionStorage,
-    setSessionStorage, } from "../../utils/sessionStrorage";
+import {getSessionStorage, setSessionStorage} from "../../utils/sessionStrorage";
 import styles from "./Alunos.module.css";
 const HEADERS = { "x-api-key": process.env.NEXT_PUBLIC_API_KEY };
 
